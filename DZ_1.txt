@@ -1,0 +1,12 @@
+CREATE TABLE DZ_1 (
+student_id SERIAL PRIMARY KEY,
+student_name VARCHAR(20),
+student_subject VARCHAR(20),
+student_group VARCHAR(20));
+
+ INSERT INTO (student_name, student_subject, student_group) VALUES
+('Egor','Math','212'),
+('Artur','Phisik','2021'),
+('Joe Jordison','Music','70021');
+
+SELECT * FROM DZ_1;
